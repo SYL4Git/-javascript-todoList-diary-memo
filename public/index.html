@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<title>TodoList</title>
+	</head>
+	<body>
+		<seciton class="header">
+			<h1 class="banner">To Do List</h1>
+			<div class="links">
+				<button class="diary">Diary</button>
+				<button class="notes">Notes</button>
+			</div>
+		</seciton>
+		<section class="weather">
+			<div class="weatherContainer">
+				<dl>
+					<dt class="tempConainer">기온:</dt>
+					<dd class="temperature"></dd>
+					<dt class="placeContainer">위치:</dt>
+					<dd class="place"></dd>
+					<dt class="descriptionContainer">설명:</dt>
+					<dd class="description"></dd>
+					<dt class="icon">
+						<img class="icon" src="" alt="weatherIcon" />
+					</dt>
+				</dl>
+				<button class="loadWeather">날씨 불러오기</button>
+			</div>
+		</section>
+		<section class="todo">
+			<div class="todoInsertContainer">
+				<form action="" class="todo-form">
+					<input type="text" placeholder="할일을 입력하세요." />
+					<button class="subtmi">할일 추가</button>
+					<div class="progressBar">
+						<div class="progress"></div>
+					</div>
+				</form>
+			</div>
+			<div class="todoContentsContainer">
+				<ul class="todoContents"></ul>
+				<div class="congratsMessage">
+					<h2>축하합니다!</h2>
+					<p>해야할 일을 모두 완료하셨습니다.</p>
+				</div>
+			</div>
+		</section>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
