@@ -1,7 +1,7 @@
-import { todo } from './todo.js';
+import { initTodo } from './todo.js';
 import { weather } from './weather.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-	todo();
-	weather();
+	initTodo();
+	// initWeather();
 });
